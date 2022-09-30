@@ -20,6 +20,6 @@ def insert_text(file_name, text):
     
     # Uncomment below lines if need to replace the original file with new file
     # os.remove(file_name)
-    # os.rename(dummy_file, file_name)
+    # os.rename(new_file, file_name)
 
 insert_text(user_input_file_name, user_input_text)
